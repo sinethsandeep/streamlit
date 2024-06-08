@@ -1,11 +1,11 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Multipage App",
+    page_title="Sales Predictor",
     page_icon="👋",
 )
 
-st.title("Main Page")
+st.title("Home page")
 st.sidebar.success("Select a page above.")
 
 if "my_input" not in st.session_state:
